@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+div{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    border: 2px black solid;
+}
+ #container{
+    width:500px;
+    height: 200px;
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    /*align-content: flex-start;*/
+ }
+ #box1{
+    background-color: aqua;
+    flex-shrink: 2;
+ }
+ #box2{
+    background-color: beige;
+    height: 200px; 
+ }
+ #box3{
+    background-color: bisque;
+    height: 75px; 
+ }
+ #box4{
+    background-color: crimson;
+ }
+ #box5{
+    background-color: darkorchid;
+    /* align-self: flex-end ;  */
+   }

@@ -1,0 +1,50 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    color: black;
+    border: black 2px solid;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+   
+    animation-name:coloranimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes coloranimate{
+    0%{background-color: aqua;
+        left:10px;}
+    50%{
+        background-color: blue;
+        font-size: 5px;
+    }
+    100%{background-color: red;
+       left: 100px;}
+    }
+/* @keyframes coloranimate{ 
+    from{background-color: aqua;
+        left:10px;}
+    to{background-color: red;
+       left: 100px;}
+}*/
+ /* transform: rotate(90deg); 
+     transition-property: all;  
+     transition-delay: 5s; 
+     transition-duration: 2s; 
+     transition-timing-function: steps(5);
+     iv:hover{
+      background-color: red; 
+     color: white; 
+     font-size: 20px;
+     transform: rotate(90deg);
+     transition: 5s;  
+     transform: scale(2); 
+     transform: translateX(200px);
+     transform:skew(30de
+}
+div:active{
+    / background-color
+} */

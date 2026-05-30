@@ -1,0 +1,34 @@
+div{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+}
+#box1{
+    background-color: aqua;
+    color: black;
+    position: relative;
+    left: 40px;
+    margin-right: 10px;
+    border-radius: 25%;
+    z-index: -2;
+}
+#box2{
+    background-color: blueviolet;
+    position:absolute;
+    right: 10px; 
+    padding-left: 10px;
+    z-index: 2;    
+}
+#box3{
+    background-color: beige;
+    position: fixed;
+    top: 80px;
+    z-index: 1;
+}
+#box4{
+    background-color: aquamarine;
+    position: absolute;
+    top: 5px;
+    z-index: 2;
+}

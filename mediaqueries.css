@@ -1,0 +1,16 @@
+div{
+    height:50px;
+    width: 50px;
+    background-color: pink;
+}
+@media(width:600px){
+    div{
+        background-color: beige;
+        /* this will change color at exact 600 px when we decrese the width of page with respect to whole page it depend on the width of the view port   */
+    }
+}
+@media(min-width:601px){
+    div{
+        background-color: blueviolet;
+    }
+}
